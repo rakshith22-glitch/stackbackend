@@ -9,8 +9,6 @@ app.listen(process.env.PORT || port, () => console.log(`Example app listening at
 
 
 let rawdata = fs.readFileSync('data.json');
-let student = JSON.parse(rawdata);
-console.log(student);
 
 
-app.get('/data', (req, res) => res.send(student));
+app.get('/data', (req, res) => res.send(rawdata));
