@@ -12,6 +12,7 @@ const whitelist = [
     "http://localhost:3000",
     "http://localhost:3001",
     "https://stacklinebackend.herokuapp.com",
+    "https://stacklinedemo.herokuapp.com/",
   ];
   const corsOptions = {
     origin: function (origin, callback) {
